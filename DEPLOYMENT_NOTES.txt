@@ -1,0 +1,17 @@
+CDX SHANTO — deployment notes
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Start the bot:
+   python main.py
+
+Credit: CDX SHANTO
+
+
+accounts.json format:
+[
+  {"uid":"...", "password":"...", "clan_id":"...", "region":"BD"},
+  {"uid":"...", "password":"...", "clan_id":"...", "region":"IND"}
+]
+Set each account's region to BD or IND and put that account's target Guild ID in its own clan_id field.
